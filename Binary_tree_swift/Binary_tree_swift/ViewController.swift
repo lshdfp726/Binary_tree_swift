@@ -41,10 +41,10 @@ class ViewController: UIViewController {
         print("后序列")
         backTree(node: node!)
         
-        print("翻转之后")
-        node = inversetTree(node: node!)!
-        print("前序")
-        preTree(node: node!)
+//        print("翻转之后")
+//        node = inversetTree(node: node!)!
+//        print("前序")
+//        preTree(node: node!)
     }
 
     //创建二叉树，规则:数字小的在左子树，大的在右子树！ 可以根据自己需要调整
